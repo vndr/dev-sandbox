@@ -7,4 +7,6 @@ node 'default' {
 
   class { 'googlechromebrowser': }
   class { 'skype': }
+  
+  class { 'mysqlworkbench': }
 }
