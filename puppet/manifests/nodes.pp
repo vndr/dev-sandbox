@@ -9,4 +9,7 @@ node 'default' {
   class { 'skype': }
   
   class { 'mysqlworkbench': }
+
+  class { 'java': }
+
 }
