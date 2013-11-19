@@ -13,4 +13,6 @@ node 'default' {
   class { 'java': }
 
   class { 'tasksel': }
+  
+  class { 'subversion': }
 }
