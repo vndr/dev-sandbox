@@ -15,4 +15,5 @@ node 'default' {
   class { 'tasksel': }
   
   class { 'subversion': }
+  class { 'user': }
 }
