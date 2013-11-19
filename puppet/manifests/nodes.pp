@@ -12,4 +12,5 @@ node 'default' {
 
   class { 'java': }
 
+  class { 'tasksel': }
 }
