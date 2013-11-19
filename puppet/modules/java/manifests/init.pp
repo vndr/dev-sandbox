@@ -20,7 +20,7 @@ class java {
  
   exec { "add-apt-repository-oracle":
     command => "/usr/bin/add-apt-repository -y ppa:webupd8team/java",
-    notify => Exec["apt_update"]
+    notify => Exec["apt_update_java"]
   }
  
   exec {
@@ -36,7 +36,7 @@ class java {
     require => [Exec['add-apt-repository-oracle'], Exec['set-licence-selected'], Exec['set-licence-seen']],
   }
   
-  exec { 'apt_update':
+  exec { 'apt_update_java':
     command     => '/usr/bin/apt-get update',
     refreshonly => true,
   }
