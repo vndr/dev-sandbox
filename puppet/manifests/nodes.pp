@@ -4,4 +4,6 @@ node 'default' {
   class { 'virtualbox': }
     
   class { 'curl': }
+
+  class { 'googlechromebrowser': }
 }
