@@ -1,10 +1,11 @@
-Install all required tools for developer from puppet on ubuntu 13.04
+Set user and install all required tools using puppet on fresh instalation of ubuntu 13.04
 
 1. install ubuntu on machine
 2. login as root,
+3. copy "install_basic.sh" file into /tmp directory
 3. run from terminal:  "./install_basic.sh"
 4. put your username
-5. log out and login again with username you added and password: 123456
+5. when is done, logout and login again with new username and password: 123456
 
 What is installed:
 
