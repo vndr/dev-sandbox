@@ -7,6 +7,8 @@ Install all required tools for developer from puppet on ubuntu 13.04
 5. log out and login again with username you added and password: 123456
 
 What is installed:
+
+using puppet:
 - curl
 - google chrome browser
 - java7
@@ -17,5 +19,10 @@ What is installed:
 - tasksel
 - vagrant (1.3.5)
 - virtualbox (4.3)
+
+via shell script:
 - puppet(from http://apt.puppetlabs.com/)
+- git
+- openssh-server
+- vim
 
