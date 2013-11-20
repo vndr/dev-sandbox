@@ -4,15 +4,15 @@ node 'default' {
 
   class { 'user': stage => 'pre' }
   
-  class { 'vagrant': }
-  class { 'virtualbox': }
-  class { 'curl': }
-  class { 'googlechromebrowser': }
-  class { 'skype': }
-  class { 'mysqlworkbench': }
-  class { 'java': }
-  class { 'tasksel': }
-  class { 'subversion': }
+  class { 'vagrant': stage => 'pre' }
+  class { 'virtualbox': stage => 'pre' }
+  class { 'curl': stage => 'pre' }
+  class { 'googlechromebrowser': stage => 'pre' }
+  class { 'skype': stage => 'pre' }
+  class { 'mysqlworkbench': stage => 'pre' }
+  class { 'java': stage => 'pre' }
+  class { 'tasksel': stage => 'pre' }
+  class { 'subversion': stage => 'pre' }
 
   class { 'rvm': version => '1.24.1' }
 
