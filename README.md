@@ -1,4 +1,4 @@
-Set user and install all required tools using puppet on `fresh instalation of ubuntu desktop 13.04`
+Install all required tools using puppet on `fresh instalation of ubuntu desktop 13.04`
 
 1. install ubuntu on machine
 2. login as root,
