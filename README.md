@@ -14,7 +14,8 @@ using puppet:
 - google chrome browser
 - java7
 - mysql workbench
-- ruby version manager(rvm)
+- ruby version manager(rvm 1.24.1)
+- ruby (ruby-1.9.3-p392)
 - skype
 - subversion
 - tasksel
@@ -27,3 +28,8 @@ via shell script:
 - openssh-server
 - vim
 
+
+TODO:
+- refactor modules for other ubuntu distros (works only with 13.04 raring ubuntu)
+- write rspec-puppet tests
+- add options to install diferent app versions
