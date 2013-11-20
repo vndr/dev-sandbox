@@ -16,7 +16,7 @@ What is installed
 - `google chrome browser`
 - `java7`
 - `mysql workbench`
-- `ruby version manager(rvm 1.24.1)`
+- `RVM - ruby version manager(1.24.1)` [https://github.com/blt04/puppet-rvm](https://github.com/blt04/puppet-rvm)
 - `ruby (ruby-1.9.3-p392)`
 - `skype`
 - `subversion`
