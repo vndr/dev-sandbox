@@ -39,5 +39,5 @@ What is installed
 TODO:
 -----
 - refactor modules for other ubuntu distros (works only with `ubuntu desktop 13.04 raring`)
-- write rspec-puppet tests
+- write [rspec-puppet](http://rspec-puppet.com/) tests
 - add options to install diferent app versions
