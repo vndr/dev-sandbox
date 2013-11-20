@@ -6,12 +6,7 @@ Set user and install all required tools using puppet on `fresh instalation of ub
 3. run from terminal:  `./install_basic.sh`
 4. put your `username`
 5. when is done, logout and login again with new `username` and password: `123456`
-
-System Requirements
--------------------
-
-ubuntu desktop 13.04
-
+6. If you are going to use `RVM` installations with `gnome-terminal`, you'll probably `need` to [change it's default options](http://rvm.io/integration/gnome-terminal)
 
 What is installed
 -----------------
