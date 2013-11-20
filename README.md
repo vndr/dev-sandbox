@@ -1,9 +1,9 @@
-Set user and install all required tools using puppet on fresh instalation of ubuntu 13.04
+Set user and install all required tools using puppet on fresh instalation of ubuntu desktop 13.04
 
 1. install ubuntu on machine
 2. login as root,
-3. copy "install_basic.sh" file into /tmp directory
-3. run from terminal:  "./install_basic.sh"
+3. copy `install_basic.sh` file into `/tmp` directory
+3. run from terminal:  `./install_basic.sh`
 4. put your username
 5. when is done, logout and login again with new username and password: 123456
 
@@ -30,6 +30,6 @@ via shell script:
 
 
 TODO:
-- refactor modules for other ubuntu distros (works only with 13.04 raring ubuntu)
+- refactor modules for other ubuntu distros (works only with `ubuntu desktop 13.04 raring`)
 - write rspec-puppet tests
 - add options to install diferent app versions
