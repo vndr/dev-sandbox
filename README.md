@@ -16,27 +16,28 @@ ubuntu desktop 13.04
 What is installed
 -----------------
 
-with puppet:
-`- curl
-- google chrome browser
-- java7
-- mysql workbench
-- ruby version manager(rvm 1.24.1)
-- ruby (ruby-1.9.3-p392)
-- skype
-- subversion
-- tasksel
-- vagrant (1.3.5)
-- virtualbox (4.3)`
+**with puppet:**
+- `curl`
+- `google chrome browser`
+- `java7`
+- `mysql workbench`
+- `ruby version manager(rvm 1.24.1)`
+- `ruby (ruby-1.9.3-p392)`
+- `skype`
+- `subversion`
+- `tasksel`
+- `vagrant (1.3.5)`
+- `virtualbox (4.3)`
 
-via shell script:
-- puppet(from http://apt.puppetlabs.com/)
-- git
-- openssh-server
-- vim
+**via shell script:**
+- `puppet(from http://apt.puppetlabs.com/)`
+- `git`
+- `openssh-server`
+- `vim`
 
 
 TODO:
+-----
 - refactor modules for other ubuntu distros (works only with `ubuntu desktop 13.04 raring`)
 - write rspec-puppet tests
 - add options to install diferent app versions
