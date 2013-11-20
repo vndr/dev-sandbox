@@ -1,4 +1,21 @@
-First call ./install_basic.sh
-then run puppet apply:
-FACTER_username=[username] puppet apply /tmp/dev-sandbox/puppet/manifests/site.pp --modulepath=/tmp/dev-sandbox/puppet/modules/ --debug
+Install all required tools for developer from puppet on ubuntu 13.04
+
+1. install ubuntu on machine
+2. login as root,
+3. run from terminal:  "./install_basic.sh"
+4. put your username
+5. log out and login again with username you added and password: 123456
+
+What is installed:
+- curl
+- google chrome browser
+- java7
+- mysql workbench
+- ruby version manager(rvm)
+- skype
+- subversion
+- tasksel
+- vagrant (1.3.5)
+- virtualbox (4.3)
+- puppet(from http://apt.puppetlabs.com/)
 
