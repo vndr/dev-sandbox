@@ -7,10 +7,17 @@ Set user and install all required tools using puppet on fresh instalation of ubu
 4. put your username
 5. when is done, logout and login again with new username and password: 123456
 
-What is installed:
+System Requirements
+-------------------
 
-using puppet:
-- curl
+ubuntu desktop 13.04
+
+
+What is installed
+-----------------
+
+with puppet:
+`- curl
 - google chrome browser
 - java7
 - mysql workbench
@@ -20,7 +27,7 @@ using puppet:
 - subversion
 - tasksel
 - vagrant (1.3.5)
-- virtualbox (4.3)
+- virtualbox (4.3)`
 
 via shell script:
 - puppet(from http://apt.puppetlabs.com/)
