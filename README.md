@@ -30,7 +30,7 @@ What is installed
 - `virtualbox (4.3)`
 
 **via shell script:**
-- `puppet(from http://apt.puppetlabs.com/)`
+- `puppet` _(from [puppetlabs repositories](http://apt.puppetlabs.com/))_
 - `git`
 - `openssh-server`
 - `vim`
