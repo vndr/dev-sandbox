@@ -1,4 +1,4 @@
-Install all required tools using puppet on `fresh instalation of ubuntu desktop 13.04`
+Install all required tools using puppet on `fresh instalation of ubuntu desktop 12.04`
 
 1. install ubuntu on machine
 2. login as root,
@@ -33,6 +33,6 @@ What is installed
 
 TODO:
 -----
-- refactor modules for other ubuntu distros (works only with `ubuntu desktop 13.04 raring`)
+- refactor modules for other ubuntu distros (works only with `ubuntu desktop 12.04 precise`)
 - write [rspec-puppet](http://rspec-puppet.com/) tests
 - add options to install diferent app versions

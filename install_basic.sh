@@ -4,8 +4,8 @@ echo -n "Enter your username and press [ENTER]: "
 read var_name
 echo "Your username is: $var_name"
 cd /tmp
-wget http://apt.puppetlabs.com/puppetlabs-release-raring.deb
-dpkg -i puppetlabs-release-raring.deb
+wget http://apt.puppetlabs.com/puppetlabs-release-precise.deb
+dpkg -i puppetlabs-release-precise.deb
 apt-get update
 apt-get -y install puppet
 puppet --version
