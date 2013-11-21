@@ -30,7 +30,7 @@ class user {
       uid     => '1002',
       gid     => '1002',      
       shell   => '/bin/bash',
-      groups  => ['adm', 'cdrom', 'sudo', 'dip', 'plugdev', 'lpadmin', 'sambashare', 'vboxsf'],
+      groups  => ['adm', 'cdrom', 'sudo', 'dip', 'plugdev', 'lpadmin', 'sambashare'],
       home    => "/home/${usern}",
       managehome  => true,
       password => '$6$baQbpzw8$lc6sx0zMSU8L5oPSH/GsWps08qsg7OOEWkrzpx3jWbzbRvkl7kQ7K8sEo0/cTlQuoUASudOskOMYvRqxU1WI11',
